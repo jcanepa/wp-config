@@ -40,6 +40,11 @@ define( 'WP_DEBUG_DISPLAY', false );
 @ini_set( 'display_errors', 0 );
 
 /**
+ * Disable file editing in WordPress dashboard.
+ */
+define('DISALLOW_FILE_EDIT', true);
+
+/**
  * Absolute path to the WordPress directory
  */
 if ( ! defined( 'ABSPATH' ) ) {
